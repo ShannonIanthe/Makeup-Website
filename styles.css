@@ -63,7 +63,7 @@ video {
 }
 
 
-/* Cards */
+/* Cards: New Products */
 .cards {
     display: flex;
     flex-direction: row;
@@ -136,6 +136,12 @@ img {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
 }
+
+/* Cards: Best Sellers */
+.card-container {
+  display: flex;
+}
+
 
 /* Announcement */
 .announcement {

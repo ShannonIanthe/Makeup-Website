@@ -27,9 +27,10 @@ body {
 }
 
 .log > h1 {
-  margin-right: 13rem;
+  margin-right: 3rem;
   font-size: 2rem;
 }
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -39,7 +40,7 @@ nav {
   margin: 0rem 1rem;
   gap: 2rem;
   white-space: nowrap;
-  verflow: hidden;
+  font-size: 2vw;
 }
 
 .nav-container {
@@ -110,7 +111,7 @@ img {
 
 .announce-image {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .announcement-h3 {
@@ -155,6 +156,40 @@ form {
   font-size: 15px;
   font-family: "Barlow Condensed", sans-serif;
   text-decoration: underline 2px greenyellow;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  font-family: "Barlow Condensed", sans-serif;
+
+}
+.footer-menu1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-menu2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.footer-menu3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.footer-menu4 {
+  text-align: center;
+  gap: 1rem;
+  padding-top: 2rem;
 }
 
 /* Keyframes for sign */

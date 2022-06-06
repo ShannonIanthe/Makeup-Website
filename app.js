@@ -22,6 +22,11 @@ window.addEventListener("load", async function () {
         const card = window.document.createElement("div");
         card.classList.add("card");
 
+        const productType = window.document.createElement("div");
+        productType.classList.add("product-type");
+        productType.textContent("alt", `https://${element.product_type}`);        
+        card.appendChild(productType);
+
         const image = window.document.createElement("img");
         image.classList.add("card-image");
         image.setAttribute("alt", `https://${element.api_featured_image}`);

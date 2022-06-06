@@ -13,6 +13,7 @@ body {
   padding: 1px;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .moving-sign {
@@ -22,16 +23,23 @@ body {
 
 /* Nav */
 .logo {
-  font-size: 2rem;
   font-family: "Barlow Condensed", sans-serif;
+}
+
+.log > h1 {
+  margin-right: 13rem;
+  font-size: 2rem;
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   margin: 0rem 1rem;
+  gap: 2rem;
+  white-space: nowrap;
+  verflow: hidden;
 }
 
 .nav-container {
@@ -76,34 +84,42 @@ video {
   height: 20vw;
 }
 
+/*
 img {
   text-align: center;
   height: 10rem;
   width: 12rem;
-}
+} */
 
 .product-description {
   font-style: italic;
 }
 
 /* Announcement */
-.announcement {
+.announce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  background-color: black;
-  width: 100%;
-  height: auto;
-  padding: 1rem;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
+  line-height: 1px;
+  background-color: black;
+}
+
+.announce-image {
+  width: 100%;
+  height: auto;
 }
 
 .announcement-h3 {
-  font-size: 7vw;
+  font-size: 5vw;
   color: greenyellow;
 }
 
 .announcement-h4 {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #fff;
 }
 

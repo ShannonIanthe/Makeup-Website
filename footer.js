@@ -13,7 +13,7 @@ const createFooter = () => {
       
     
       <div class="footer-two">
-        <h6>Shop</h6>
+        <h5>Shop</h5>
         <h6>Shop all</h6>
         <h6>Face</h6>
         <h6>lip</h6>
@@ -22,12 +22,12 @@ const createFooter = () => {
       </div>
     
       <div class="footer-three">
-        <h6>About</h6>
+        <h5>About</h5>
         <h6>About</h6>
       </div>
     
       <div class="footer-four">
-        <h6>Help</h6>
+        <h5>Help</h5>
         <h6>FAQS</h6>
         <h6>Accessibility</h6>
         <h6>Affiliates</h6>

@@ -14,6 +14,7 @@ const createNav = () => {
       <div>Bundles</div>
       <div>Tools & Merch</div>
       <div>All</div>
+      <a>
       <img
       class="search"
       src="./images/icons8-search-20.png"
@@ -22,6 +23,7 @@ const createNav = () => {
       class="search"
       src="./images/icons8-shopping-bag-50.png"
       alt="search-button">
+      </a>
     </div>
   </nav>`;
 }
